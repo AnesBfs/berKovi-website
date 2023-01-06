@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   }
+    body {
+      background-image: url('image/back.jpg');
+      background-size: 100%  100%;
+      background-attachment: fixed;
+
+    }
+    /*scrollweb*/
+    ::-webkit-scrollbar {
+      width: 10px;
+      background-color: gray;
+    
+    }
+    ::-webkit-scrollbar-thumb  {
+      background: goldenrod;
+    }
+   /*endscrollweb*/
+
+   /*navabar*/
+    .navbar   {
+  width: 1355px;
+  margin:auto ;
+  position: fixed;
+  background-color:gray;
+  border-radius: 20px;
+ 
+ } 
+  /* header main aside devsion*/
+  header {
+  width: auto;
+  height:80px;
+  border-radius: 20px;
+
+
+}
+
+
+.my-logo {
+  float: left;
+  font-size: 30px;
+  margin: 20px;
+  letter-spacing: 5px;
+  color:goldenrod;
+  text-decoration: underline;
+ }
+ .n-links{
+    height:100% ;
+    float: right;
+
+ }
+ .n-links ul{
+  display: flex;
+  color:black;
+  margin: 25px;
+  letter-spacing: 5px;
+  font-size: 30px;
+  padding: 0px;
+
+ }
+ .n-links li a {
+  text-decoration:none;
+  color:rgb(247, 187, 35);
+  font-family:bignoodletitling;
+  letter-spacing: 2px;
+  margin: 0px;
+ padding:30px;
+ }
+ .n-links li:hover
+ {
+  background-color: whitesmoke;
+ }
+
+
+footer {
+  background-color:rgba(29, 1, 1, 0.466);
+  width: auto;
+  height:80px;
+  border-radius: 20px;
+  margin-bottom: 0px;
+
+}
+
+#aside {
+ backface-visibility: hidden;
+  width: 100px;
+  height: 10300px;
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 20px; 
+}
+
+#nav {
+
+  width: 100px;
+  height:10300px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.096);
+  
+ 
+}
+#main {
+
+  width: 1120px;
+  height:10300px;
+  margin-left: 115px; 
+  margin-bottom: -10300px;
+  margin-top:20px ;
+  border-radius:20px ;
+} 
+  
+.container 
+    {
+      max-width: 1200px;
+      margin: auto;
+      background:#f2f2f27c ;
+      overflow: auto;
+      padding: 30px;
+    }
+.p1 
+{
+  float: left;
+  padding: 10px;
+  border: 1px solid #ccc ;
+  width: 320px;
+
+}
+.p2
+{
+  float: left;
+  padding: 10px;
+  border: 1px solid #ccc ;
+  width: 320px;
+
+
+}
+.p3 {
+ 
+  float:right;
+  padding: 10px;
+  border: 1px solid #ccc ;
+  width: 320px;
+
+}
+.fotlist {
+    margin-top: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+   }
+.fotlist ul li a {
+  color: white;
+  text-decoration:none ;
+}
+.fotlist ul li 
+{
+  display: inline-block;
+  padding:0 15px ;
+}
+.comm-box {
+ margin: auto;
+width: 55px;
+transform: translate(50% 50%);
+}
+.comm-box input {
+width: 250px;
+height:50px;
+padding: 0 20px;
+margin-bottom: 10px;
+border-radius: 10px;
+border: 1px solid black;
+}
+.comm-box textarea {
+width: 250px;
+height:155px;
+padding: 15px 20px;
+margin-bottom: 10px;
+border-radius: 10px;
+border: 1px solid gray;
+font-size: 20px;
+}
+.comm-box input:hover {
+background-color:goldenrod;
+}
+/*submit*/
+button {
+
+background-color:black;
+color:goldenrod;
+font-size: 25px;
+border-radius:20px;
+width: 180px;
+padding: 20px;
+border: 1px  solid goldenrod;
+    }
+    fieldset {
+      box-sizing: border-box;
+      padding:30px;
+      border: 5px solid goldenrod;
+      border-radius: 20px;
+      background-color:rgba(0, 0, 0, 0.555);
+  
+    }
+    legend {
+      font-size: 50px;
+      color:goldenrod;
+    }
+    .ver-menu {  
+width: 150px;
+height:200px;
+overflow-y: auto;
+position: fixed;
+font-size: 25px;
+}
+    .ver-menu a {
+    background-color:black;
+    color:goldenrod;
+    display: block;
+    padding: 12px;
+    text-decoration:solid;
+    font-size:30px ;
+
+  }
+  h1  { 
+  background-color:rgba(128, 128, 128, 0.479) ;
+  font-size:30px;
+  padding: auto;
+  text-align: center;
+  padding: auto;
+  border-radius: 70px;
+  font-style: initial;
+
+    }
+    mark {
+      font-size: 50px;
+    }
